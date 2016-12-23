@@ -1,0 +1,17 @@
+{
+  "name": "vue-switch3",
+  "description": "A vue project.",
+  "main": "main.js",
+  "authors": [
+    "Dmitriy Blinov"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/qwintry/vue-switch3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

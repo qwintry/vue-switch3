@@ -1,0 +1,31 @@
+{
+  "name": "vue-switch3",
+  "version": "1.0.0",
+  "description": "A vue project.",
+  "private": false,
+  "keywords": [
+  ],
+  "scripts": {
+    "dev": "cooking watch -c cooking.dev.js",
+    "dist": "cooking build -c cooking.dist.js",
+    "deploy": "cooking build --no-color",
+    "test": "cooking test karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwintry/vue-switch3.git"
+  },
+  "homepage": "https://github.com/qwintry/vue-switch3",
+  "bugs": {
+    "url": "https://github.com/qwintry/vue-switch3/issues"
+  },
+  "author": "Dmitriy Blinov",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.0.1",
+    "babel-polyfill": "*"
+  },
+  "devDependencies": {
+    "cooking-vue2": "*"
+  }
+}
